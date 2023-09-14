@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EmployeDto {
-   
+   private int id;
    private String name;
    private String company;
    private Double salary;
